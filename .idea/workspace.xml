@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82228372-0e2b-4810-81e1-9d2ffcb19f20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.TestRotate in github.com/ares0817/geek">
     <configuration name="TestRemoveDuplicates in github.com/ares0817/geek" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="geek" />
       <working_directory value="$PROJECT_DIR$" />
@@ -56,8 +58,18 @@
       <pattern value="^TestRemoveDuplicates$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestRotate in github.com/ares0817/geek" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="geek" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ares0817/geek" />
+      <pattern value="^TestRotate$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestRotate in github.com/ares0817/geek" />
         <item itemvalue="Go Test.TestRemoveDuplicates in github.com/ares0817/geek" />
       </list>
     </recent_temporary>
