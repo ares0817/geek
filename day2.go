@@ -22,3 +22,18 @@ func reverse(nums []int, start, end int) {
 		j--
 	}
 }
+
+func rotate2(nums []int, k int) {
+
+	l := len(nums)
+	k = k % l
+
+	for k > 0 {
+		tmp := nums[l - 1]
+		for i := l - 1; i > 0; i-- {
+			nums[i] = nums[i - 1]
+		}
+		nums[0] = tmp
+		k--
+	}
+}
