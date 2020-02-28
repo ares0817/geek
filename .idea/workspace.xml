@@ -46,7 +46,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestRotate2 in github.com/ares0817/geek">
+  <component name="RunManager" selected="Go Test.TestMerge in github.com/ares0817/geek">
+    <configuration name="TestMerge in github.com/ares0817/geek" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="geek" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ares0817/geek" />
+      <pattern value="^TestMerge$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestRemoveDuplicates in github.com/ares0817/geek" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="geek" />
       <working_directory value="$PROJECT_DIR$" />
@@ -76,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestMerge in github.com/ares0817/geek" />
         <item itemvalue="Go Test.TestRotate2 in github.com/ares0817/geek" />
         <item itemvalue="Go Test.TestRotate in github.com/ares0817/geek" />
         <item itemvalue="Go Test.TestRemoveDuplicates in github.com/ares0817/geek" />
@@ -107,11 +117,17 @@
           <line>2</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/day4_test.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
-        <watch expression="nums[l - k:]" language="go" />
+        <watch expression="nums1[i]" language="go" />
+        <watch expression="nums1[j]" language="go" />
       </configuration>
     </watches-manager>
   </component>
